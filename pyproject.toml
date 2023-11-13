@@ -1,0 +1,12 @@
+[project]
+name = "EQACA"
+version = "0.1"
+description = "An evaluation tool for Q&A-modules of medical conversational agents"
+authors = [
+    {name = "Daniel Reichenpfader", email = "daniel.reichenpfader@bfh.ch"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
