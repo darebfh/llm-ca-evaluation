@@ -5,8 +5,33 @@ description = "An evaluation tool for Q&A-modules of medical conversational agen
 authors = [
     {name = "Daniel Reichenpfader", email = "daniel.reichenpfader@bfh.ch"},
 ]
-dependencies = []
+dependencies = [
+    "requests>=2.31.0",
+    "openai>=1.2.3",
+    "python-dotenv>=1.0.0",
+    "langchain>=0.0.336",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 
+[tool.pdm.dev-dependencies]
+dev = [
+    "isort>=5.12.0",
+    "black>=23.11.0",
+    "setuptools>=68.2.2",
+    "pylint>=3.0.2",
+]
+
+[tool.pdm.scripts]
+lint = {cmd = "pycodestyle ./src ./test --max-line-length 120"}
+test = {cmd = "python -m unittest discover -s ./tests -p \"test_*.py\""}
+check-import-order = {cmd = "isort ./src ./test --check-only"}
+fix-import-order = {cmd = "isort ./src ./test"}
+evaluate = {cmd= "python ./src/evaluation/main.py"}
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = "88"
