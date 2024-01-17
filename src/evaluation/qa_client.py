@@ -8,8 +8,10 @@ class QAClient:
     def get_answer(self, question):
         print("Sending question to QA endpoint: " + question)
         response = requests.post(self.url, json={"text": question})
-        json_response = response.json()
-        # TODO: Handle errors
-        qa_answer = json_response["result"]
+        if response.ok:
+            json_response = response.json()
+            qa_answer = json_response["result"]
+        else:
+            qa_answer = str(response.status_code)
         print("Received answer from QA endpoint: " + qa_answer)
         return qa_answer

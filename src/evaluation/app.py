@@ -1,3 +1,4 @@
+import datetime
 import os
 
 import constants
@@ -28,7 +29,7 @@ class Evaluator:
             # Load examples from CSV
             self.examples = self.csv_handler.read_csv(constants.QAP_DEFINITIONS_FILE)
             # Generate question variations
-            self.get_question_variations_for_all_qaps()
+
             if constants.QAP_LIMIT:
                 print(
                     "TEST MODE - Limiting examples to "
@@ -38,6 +39,7 @@ class Evaluator:
                 self.examples = self.examples[
                     constants.QAP_LIMIT[0] : constants.QAP_LIMIT[1]
                 ]
+            self.get_question_variations_for_all_qaps()
 
     def get_question_variations_for_all_qaps(self):
         for example in self.examples:
@@ -45,7 +47,7 @@ class Evaluator:
             print("Generating variations for question: " + question)
             alternative_questions = self.get_question_variations_for_qap(question)
             example.alternative_questions = alternative_questions
-            # example["created_at"] = datetime.datetime.now().isoformat()
+            example.variations_created_at = datetime.datetime.now().isoformat()
             self.save_object(
                 example, constants.QAP_VARIATIONS_OUTPUT_FOLDER + example.identifier
             )
@@ -67,7 +69,7 @@ class Evaluator:
                     example.qa_data[role][question] = answer
                 self.save_object(
                     example,
-                    constants.QA_ANSWERS_OUTPUT_FOLDER + example.identifier + "_qa",
+                    constants.QA_ANSWERS_OUTPUT_FOLDER + example.identifier,
                 )
 
     def compute_metrics(self):

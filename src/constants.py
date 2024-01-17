@@ -2,8 +2,8 @@ QAP_LIMIT = (0, 2)
 QA_ENDPOINT = "https://dmia.public.medinflab.ti.bfh.ch/answer"
 
 QAP_DEFINITIONS_FILE = "data/input/qa_content.csv"
-QAP_VARIATIONS_OUTPUT_FOLDER = "data/output/variations"
-QA_ANSWERS_OUTPUT_FOLDER = "data/output/qa_answers"
+QAP_VARIATIONS_OUTPUT_FOLDER = "data/output/variations/"
+QA_ANSWERS_OUTPUT_FOLDER = "data/output/qa_answers/"
 
 
 ROLES = {
@@ -16,7 +16,7 @@ ROLES = {
 }
 
 TASK = (
-    "Definiere anhand folgender Antwort zehn möglichst unterschiedliche Versionen einer Frage. Passe deine "
-    "Wortwahl an deine Gesundheitskompetenz und deine Sprachniveau an. Gib jeweils nur die Formulierung getrennt "
+    "Definiere anhand folgender Frage zehn möglichst unterschiedliche Versionen dieser Frage. Passe deine "
+    "Wortwahl an deine Gesundheitskompetenz und dein Sprachniveau an. Gib jeweils nur die Frage getrennt "
     "durch einen Zeilenumbruch (\n) zurück."
 )
