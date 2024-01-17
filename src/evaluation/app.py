@@ -55,9 +55,11 @@ class Evaluator:
 
     def get_question_variations_for_qap(self, question):
         result = {}
-        for role in self.roles:
-            print("Getting questions for role: " + role)
-            result[role] = self.openai_client.send_data_to_api(question, role)
+        for role_name, role_details in self.roles.items():
+            print("Getting questions for role: " + role_name)
+            result[role_name] = self.openai_client.send_data_to_api(
+                question, role_details
+            )
         return result
 
     def get_qa_response_for_all_variations(self):
@@ -88,6 +90,7 @@ class Evaluator:
                 correct_answers += 1
             else:
                 incorrect_answers += 1
+        return correct_answers, incorrect_answers
 
     @staticmethod
     def save_object(obj, full_path):

@@ -1,1 +1,82 @@
-{"alternative_questions": {"high_literacy": ["Verursacht eine Mammografie Schmerzen?", "Kann eine Mammografie unangenehm sein?", "Sind Schmerzen bei einer Mammografie zu erwarten?", "Hat eine Mammografie das Potenzial, Schmerzen zu verursachen?", "Können während einer Mammografie Schmerzen auftreten?", "Gibt es bei einer Mammografie eventuell Schmerzen?", "Ist es möglich, dass man bei einer Mammografie Schmerzen empfindet?", "Kann es während einer Mammografie zu Unannehmlichkeiten kommen?", "Besteht das Risiko, dass eine Mammografie schmerzhaft sein könnte?", "Sind Schmerzen ein möglicher Nebeneffekt einer Mammografie?"], "low_literacy": ["- Tut eine Brustuntersuchung weh?", "- Ist eine Mammografie schmerzhaft?", "- Macht es weh, wenn man eine Mammografie macht?", "- Kann eine Mammografie unangenehm sein?", "- Verursacht eine Mammografie Schmerzen?", "- Ist es schmerzhaft, eine Brustuntersuchung durchzuführen?", "- Tut es weh, wenn die Brüste geröntgt werden?", "- Kann eine Mammografie schmerzvoll sein?", "- Verursacht eine Mammografie Beschwerden?", "- Ist eine Mammografie mit Schmerzen verbunden?"], "poor_german": ["Verursacht eine Mammografie Schmerzen?", "Ist eine Mammografie schmerzhaft?", "Kann eine Mammografie Schmerzen verursachen?", "Muss ich bei einer Mammografie Schmerzen aushalten?", "Wird eine Mammografie unangenehm sein?", "Sind Schmerzen bei einer Mammografie zu erwarten?", "Sollte ich während einer Mammografie Schmerzen empfinden?", "Kann eine Mammografie unwohlsein verursachen?", "Werde ich bei einer Mammografie Schmerzen haben?", "Kann eine Mammografie Beschwerden machen?"]}, "qa_data": {"high_literacy": {"Verursacht eine Mammografie Schmerzen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Kann eine Mammografie unangenehm sein?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Sind Schmerzen bei einer Mammografie zu erwarten?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Hat eine Mammografie das Potenzial, Schmerzen zu verursachen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Können während einer Mammografie Schmerzen auftreten?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Gibt es bei einer Mammografie eventuell Schmerzen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Ist es möglich, dass man bei einer Mammografie Schmerzen empfindet?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Kann es während einer Mammografie zu Unannehmlichkeiten kommen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Besteht das Risiko, dass eine Mammografie schmerzhaft sein könnte?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Sind Schmerzen ein möglicher Nebeneffekt einer Mammografie?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann."}, "low_literacy": {"- Tut eine Brustuntersuchung weh?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.", "- Ist eine Mammografie schmerzhaft?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Macht es weh, wenn man eine Mammografie macht?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Kann eine Mammografie unangenehm sein?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Verursacht eine Mammografie Schmerzen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Ist es schmerzhaft, eine Brustuntersuchung durchzuführen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.", "- Tut es weh, wenn die Brüste geröntgt werden?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.", "- Kann eine Mammografie schmerzvoll sein?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Verursacht eine Mammografie Beschwerden?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "- Ist eine Mammografie mit Schmerzen verbunden?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann."}, "poor_german": {"Verursacht eine Mammografie Schmerzen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Ist eine Mammografie schmerzhaft?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Kann eine Mammografie Schmerzen verursachen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Muss ich bei einer Mammografie Schmerzen aushalten?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Wird eine Mammografie unangenehm sein?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Sind Schmerzen bei einer Mammografie zu erwarten?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Sollte ich während einer Mammografie Schmerzen empfinden?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Kann eine Mammografie unwohlsein verursachen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Werde ich bei einer Mammografie Schmerzen haben?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "Kann eine Mammografie Beschwerden machen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann."}}, "identifier": "2", "question": " Tut eine Mammografie weh?", "answer": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.", "variations_created_at": "2024-01-17T14:45:42.779745"}
+{
+  "alternative_questions": {
+    "high_literacy": [
+      "Besteht eine mögliche Korrelation zwischen der Durchführung einer Mammografie und dem Auftreten von Schmerzen? ",
+      "Kann es während einer Mammografie zu unangenehmen Empfindungen oder Schmerzen kommen?",
+      "Sind Schmerzen oder Beschwerden während einer Mammografie eine potenzielle Nebenwirkung oder typisch für dieses bildgebende Verfahren zur Brustdiagnostik?",
+      "Kann die Mammografie als invasives Verfahren angesehen werden, das mit Schmerzen oder Unannehmlichkeiten für die Patientin verbunden sein kann?",
+      "Ist die Mammografie ein möglicherweise schmerzhaftes Prozedere, bei dem die Patientin unangenehme Empfindungen während der Untersuchung erleben könnte?",
+      "Kann es bei der Durchführung einer Mammografie zu sensorischen Beschwerden oder gar Schmerzen kommen und wie häufig tritt dies bei den Patientinnen auf?",
+      "Wird die Mammografie von den meisten Frauen als schmerzhaft empfunden oder sind unangenehme Empfindungen während des Verfahrens eher die Ausnahme?",
+      "Führt die Mammografie oft zu schmerzlichen Reaktionen bei den untersuchten Patientinnen oder handelt es sich eher um ein gut verträgliches Diagnoseverfahren?",
+      "Ist es üblich, dass Frauen während einer Mammografie Schmerzen empfinden und inwiefern können diese durch bestimmte Techniken oder Geräte verbessert werden?",
+      "In welchem Ausmaß sollten Schmerzen während einer Mammografie erwartet werden und gibt es Maßnahmen, um diese unangenehmen Empfindungen zu minimieren oder zu vermeiden?"
+    ],
+    "low_literacy": [
+      "Kann eine Mammografie schmerzhaft sein?",
+      "Tut es weh, wenn man eine Mammografie macht?",
+      "Können Schmerzen bei einer Mammografie auftreten?",
+      "Macht eine Mammografie Schmerzen?",
+      "Ist es unangenehm, eine Mammografie zu machen?",
+      "Bekommt man Schmerzen bei einer Mammografie?",
+      "Kann eine Mammografie schmerzhaft sein? Ich habe wenig Erfahrung damit.",
+      "Empfindet man Schmerzen während einer Mammografie?",
+      "Ist es normal, dass eine Mammografie unangenehm sein kann?",
+      "Kann eine Mammografie unangenehme Empfindungen verursachen?"
+    ],
+    "poor_german": [
+      "Schmerzen bei Mammografie?",
+      "Tut Mammografie weh?",
+      "Mammografie, tut das weh?",
+      "Es tut weh, Mammografie?",
+      "Schmerzhaft, Mammografie?",
+      "Schmerzen während Mammografie?",
+      "Mammografie, schmerzhaft?",
+      "Ich unsicher, tut Mammografie weh?",
+      "Mammografie, Schmerzen dabei?",
+      "Leidet man bei Mammografie?"
+    ]
+  },
+  "qa_data": {
+    "high_literacy": {
+      "Besteht eine mögliche Korrelation zwischen der Durchführung einer Mammografie und dem Auftreten von Schmerzen? ": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "Kann es während einer Mammografie zu unangenehmen Empfindungen oder Schmerzen kommen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Sind Schmerzen oder Beschwerden während einer Mammografie eine potenzielle Nebenwirkung oder typisch für dieses bildgebende Verfahren zur Brustdiagnostik?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "Kann die Mammografie als invasives Verfahren angesehen werden, das mit Schmerzen oder Unannehmlichkeiten für die Patientin verbunden sein kann?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "Ist die Mammografie ein möglicherweise schmerzhaftes Prozedere, bei dem die Patientin unangenehme Empfindungen während der Untersuchung erleben könnte?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Kann es bei der Durchführung einer Mammografie zu sensorischen Beschwerden oder gar Schmerzen kommen und wie häufig tritt dies bei den Patientinnen auf?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "Wird die Mammografie von den meisten Frauen als schmerzhaft empfunden oder sind unangenehme Empfindungen während des Verfahrens eher die Ausnahme?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "Führt die Mammografie oft zu schmerzlichen Reaktionen bei den untersuchten Patientinnen oder handelt es sich eher um ein gut verträgliches Diagnoseverfahren?": "Durch die Strahlenexposition besteht ein theoretisches Risiko Brustkrebs zu verursachen. Eine Verschlimmerung von Krebs ist in der Literatur nicht beschrieben.",
+      "Ist es üblich, dass Frauen während einer Mammografie Schmerzen empfinden und inwiefern können diese durch bestimmte Techniken oder Geräte verbessert werden?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "In welchem Ausmaß sollten Schmerzen während einer Mammografie erwartet werden und gibt es Maßnahmen, um diese unangenehmen Empfindungen zu minimieren oder zu vermeiden?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen."
+    },
+    "low_literacy": {
+      "Kann eine Mammografie schmerzhaft sein?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Tut es weh, wenn man eine Mammografie macht?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Können Schmerzen bei einer Mammografie auftreten?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Macht eine Mammografie Schmerzen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Ist es unangenehm, eine Mammografie zu machen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Bekommt man Schmerzen bei einer Mammografie?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Kann eine Mammografie schmerzhaft sein? Ich habe wenig Erfahrung damit.": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Empfindet man Schmerzen während einer Mammografie?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Ist es normal, dass eine Mammografie unangenehm sein kann?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Kann eine Mammografie unangenehme Empfindungen verursachen?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann."
+    },
+    "poor_german": {
+      "Schmerzen bei Mammografie?": "400",
+      "Tut Mammografie weh?": "400",
+      "Mammografie, tut das weh?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Es tut weh, Mammografie?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Schmerzhaft, Mammografie?": "400",
+      "Schmerzen während Mammografie?": "400",
+      "Mammografie, schmerzhaft?": "400",
+      "Ich unsicher, tut Mammografie weh?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+      "Mammografie, Schmerzen dabei?": "400",
+      "Leidet man bei Mammografie?": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann."
+    }
+  },
+  "identifier": "2",
+  "question": " Tut eine Mammografie weh?",
+  "answer": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+  "variations_created_at": "2024-01-17T15:38:35.341260"
+}

@@ -15,14 +15,19 @@ class OpenAIClient(LLMClient):
     def send_data_to_api(self, data, role):
         # Implement the logic to send data to the API
         # You may want to loop through the data and send it line by line
-
+        print("Role: ", role)
         completion = self.client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {
                     "role": "system",
-                    "content": role + constants.TASK,
+                    "content": role["description"] + constants.TASK,
                 },
+                {
+                    "role": "user",
+                    "content": role["example_question"],
+                },
+                {"role": "assistant", "content": role["example_answer"]},
                 {
                     "role": "user",
                     "content": data,
