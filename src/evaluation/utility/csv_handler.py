@@ -1,14 +1,21 @@
 import csv
 
+from evaluation.types.example import Example
+
 
 class CSVHandler:
     @staticmethod
     def read_csv(file_path):
+        examples = []
         with open(file_path, "r") as file:
             reader = csv.reader(file)
+            # Skip the header row
+            next(reader)
             # Process and return the data as needed
-            data = [row for row in reader]
-        return data
+            for row in reader:
+                examples.append(Example(row[0], row[1], row[2]))
+
+        return examples
 
     @staticmethod
     def write_to_csv(file_path, data, header=None):

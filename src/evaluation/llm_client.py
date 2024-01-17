@@ -6,5 +6,5 @@ class LLMClient(ABC):
         super().__init__()
 
     @abstractmethod
-    def send_data_to_api(self, data):
+    def send_data_to_api(self, data, role):
         pass

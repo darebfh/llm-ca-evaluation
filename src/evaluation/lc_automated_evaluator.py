@@ -1,9 +1,13 @@
+import datetime
+import json
+
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
 from dotenv import load_dotenv, find_dotenv
 
-from evaluation.vertical_list_output_parser import VerticalListOutputParser
+import constants
+from evaluation.utility.vertical_list_output_parser import VerticalListOutputParser
 
 
 class LangChainAutomatedEvaluator:
@@ -12,22 +16,23 @@ class LangChainAutomatedEvaluator:
         self.model = model
         self.roles = roles
 
-    def evaluate(self, question):
+    def get_alternative_questions(self, input):
         if self.roles is None or len(self.roles) == 0:
             raise Exception("No roles given")
         result = {}
 
-        task = (
-            "Definiere anhand folgender Antwort zehn möglichst unterschiedliche Versionen einer Frage. Passe deine "
-            "Wortwahl an deine Gesundheitskompetenz und deine Sprachniveau an. Gib jeweils nur die Formulierung "
-            "getrennt durch einen Zeilenumbruch (\n) zurück."
-        )
+        task = constants.TASK
 
         for key, value in self.roles.items():
+            print("Running automated test for role: " + key)
             chain = self.create_chain(value, task)
-            output = chain.invoke({"text": question})
+            print("Input: " + input)
+            output = chain.invoke({"text": input})
+            print("Output: " + json.dumps(output, ensure_ascii=False))
             result[key] = output
-
+        result["created_with"] = self.model
+        result["created_at"] = datetime.datetime.now().isoformat()
+        print("Result: " + json.dumps(result, ensure_ascii=False))
         return result
 
     def create_chain(self, role, task):

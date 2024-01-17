@@ -1,0 +1,81 @@
+{
+  "identifier": "2",
+  "question": " Tut eine Mammografie weh?",
+  "answer": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+  "alternative_questions": {
+    "high_literacy": [
+      "Kann das Zusammenpressen der Brust schmerzhaft sein, wenn man eine bessere Bildqualität erreichen will?",
+      "Ist es möglich, dass es schmerzhaft ist, wenn man die Brust zusammendrückt, um die Bildqualität zu verbessern?",
+      "Verursacht das Zusammendrücken der Brust Schmerzen, wenn man versucht, die Bildqualität zu verbessern?",
+      "Kann es unangenehm sein, wenn die Brust zusammengedrückt wird, um eine bessere Bildqualität zu erzielen?",
+      "Besteht die Möglichkeit, dass das Zusammenpressen der Brust schmerzhaft ist, um die Bildqualität zu verbessern?",
+      "Können Schmerzen auftreten, wenn man die Brust zusammendrückt, um eine bessere Bildqualität zu erzielen?",
+      "Ist es normal, dass es schmerzhaft sein kann, wenn die Brust zusammengedrückt wird, um die Bildqualität zu optimieren?",
+      "Erfährt man möglicherweise Schmerzen beim Zusammenpressen der Brust zur Verbesserung der Bildqualität?",
+      "Ist es üblich, dass es unangenehm sein kann, wenn man die Brust zusammendrückt, um die Bildqualität zu erhöhen?",
+      "Kann das Drücken auf die Brust schmerzhaft sein, um eine bessere Bildqualität zu erzielen?"
+    ],
+    "low_literacy": [
+      "Wird die Brust zusammengedrückt, um das Bild klarer zu machen? Kann das weh tun?",
+      "Warum drückt man die Brust zusammen, wenn man ein Bild macht? Kann das schmerzhaft sein?",
+      "Ist es normal, dass die Brust während einer Bildaufnahme zusammengedrückt wird? Kann das schmerzhaft sein?",
+      "Warum wird die Brust zusammengedrückt, wenn man ein Bild macht? Tut das weh?",
+      "Ist es üblich, dass die Brust während einer Bildaufnahme zusammengedrückt wird? Kann das unangenehm sein?",
+      "Weshalb presst man die Brust während einer Bildaufnahme zusammen? Kann das schmerzhaft sein?",
+      "Wird einem Schmerz zugefügt, wenn die Brust zusammengedrückt wird, um ein besseres Bild zu bekommen?",
+      "Ist es normal, dass es schmerzhaft ist, wenn die Brust zusammengedrückt wird, um die Bildqualität zu verbessern?",
+      "Warum drückt man die Brust zusammen, wenn man ein Bild macht? Kann das wehtun?",
+      "Ist es normal, dass es unangenehm ist, wenn die Brust zusammengedrückt wird, um ein schärferes Bild zu erhalten?"
+    ],
+    "poor_german": [
+      "- Fühlen Sie eine Druckempfindung in der Brust während der Untersuchung?",
+      "- Erfahren Sie Schmerzen, wenn Ihr Brustbereich zusammengedrückt wird?",
+      "- Sind Ihnen Schmerzen bekannt, wenn die Brust zusammengepresst wird, um die Bildqualität zu verbessern?",
+      "- Kann es schmerzhaft sein, wenn die Brust während der Untersuchung zusammengedrückt wird?",
+      "- Haben Sie Schmerzen, wenn der Brustbereich zusammengedrückt wird, um eine klarere Bildqualität zu erzielen?",
+      "- Erfahren Sie in der Regel Unannehmlichkeiten oder Schmerzen, wenn die Brust während dieser Untersuchung zusammengedrückt wird?",
+      "- Empfinden Sie eine unangenehme Druckempfindung in der Brust, wenn der Oberkörper für bessere Bilder zusammengedrückt wird?",
+      "- Ist es Ihnen bekannt, dass es schmerzhaft sein kann, wenn die Brust zusammengepresst wird, um die Bildqualität zu optimieren?",
+      "- Spüren Sie Schmerzen während der Untersuchung, wenn der Brustbereich zusammengedrückt wird, um eine bessere Bildqualität zu erreichen?",
+      "- Kann es zu Beschwerden oder Schmerzen kommen, wenn die Brust während der Untersuchung zusammengedrückt wird, um eine klarere Darstellung zu erzielen?"
+    ]
+  },
+  "qa_data": {
+    "high_literacy": {
+      "Kann das Zusammenpressen der Brust schmerzhaft sein, wenn man eine bessere Bildqualität erreichen will?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es möglich, dass es schmerzhaft ist, wenn man die Brust zusammendrückt, um die Bildqualität zu verbessern?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Verursacht das Zusammendrücken der Brust Schmerzen, wenn man versucht, die Bildqualität zu verbessern?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Kann es unangenehm sein, wenn die Brust zusammengedrückt wird, um eine bessere Bildqualität zu erzielen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Besteht die Möglichkeit, dass das Zusammenpressen der Brust schmerzhaft ist, um die Bildqualität zu verbessern?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Können Schmerzen auftreten, wenn man die Brust zusammendrückt, um eine bessere Bildqualität zu erzielen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es normal, dass es schmerzhaft sein kann, wenn die Brust zusammengedrückt wird, um die Bildqualität zu optimieren?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Erfährt man möglicherweise Schmerzen beim Zusammenpressen der Brust zur Verbesserung der Bildqualität?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es üblich, dass es unangenehm sein kann, wenn man die Brust zusammendrückt, um die Bildqualität zu erhöhen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Kann das Drücken auf die Brust schmerzhaft sein, um eine bessere Bildqualität zu erzielen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen."
+    },
+    "low_literacy": {
+      "Wird die Brust zusammengedrückt, um das Bild klarer zu machen? Kann das weh tun?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Warum drückt man die Brust zusammen, wenn man ein Bild macht? Kann das schmerzhaft sein?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es normal, dass die Brust während einer Bildaufnahme zusammengedrückt wird? Kann das schmerzhaft sein?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Warum wird die Brust zusammengedrückt, wenn man ein Bild macht? Tut das weh?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es üblich, dass die Brust während einer Bildaufnahme zusammengedrückt wird? Kann das unangenehm sein?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Weshalb presst man die Brust während einer Bildaufnahme zusammen? Kann das schmerzhaft sein?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Wird einem Schmerz zugefügt, wenn die Brust zusammengedrückt wird, um ein besseres Bild zu bekommen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es normal, dass es schmerzhaft ist, wenn die Brust zusammengedrückt wird, um die Bildqualität zu verbessern?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Warum drückt man die Brust zusammen, wenn man ein Bild macht? Kann das wehtun?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "Ist es normal, dass es unangenehm ist, wenn die Brust zusammengedrückt wird, um ein schärferes Bild zu erhalten?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen."
+    },
+    "poor_german": {
+      "- Fühlen Sie eine Druckempfindung in der Brust während der Untersuchung?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Erfahren Sie Schmerzen, wenn Ihr Brustbereich zusammengedrückt wird?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Sind Ihnen Schmerzen bekannt, wenn die Brust zusammengepresst wird, um die Bildqualität zu verbessern?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Kann es schmerzhaft sein, wenn die Brust während der Untersuchung zusammengedrückt wird?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Haben Sie Schmerzen, wenn der Brustbereich zusammengedrückt wird, um eine klarere Bildqualität zu erzielen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Erfahren Sie in der Regel Unannehmlichkeiten oder Schmerzen, wenn die Brust während dieser Untersuchung zusammengedrückt wird?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Empfinden Sie eine unangenehme Druckempfindung in der Brust, wenn der Oberkörper für bessere Bilder zusammengedrückt wird?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Ist es Ihnen bekannt, dass es schmerzhaft sein kann, wenn die Brust zusammengepresst wird, um die Bildqualität zu optimieren?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Spüren Sie Schmerzen während der Untersuchung, wenn der Brustbereich zusammengedrückt wird, um eine bessere Bildqualität zu erreichen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen.",
+      "- Kann es zu Beschwerden oder Schmerzen kommen, wenn die Brust während der Untersuchung zusammengedrückt wird, um eine klarere Darstellung zu erzielen?": "Ja, sollte die Untersuchung zu stark unangenehm sein, haben Sie jederzeit die Möglichkeit die Untersuchung abzubrechen."
+    }
+  }
+}

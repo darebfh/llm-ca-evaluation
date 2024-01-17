@@ -1,20 +1,18 @@
-import os
-
 from openai import OpenAI
 import constants
-from dotenv import load_dotenv, find_dotenv
 
 from evaluation.llm_client import LLMClient
+from evaluation.utility.vertical_list_output_parser import VerticalListOutputParser
 
 
 class OpenAIClient(LLMClient):
     def __init__(self):
         super().__init__()
-        key = os.getenv("OPENAI_API_KEY")
-        print(key)
-        self.client = OpenAI(api_key=key)
+        # key = os.getenv("OPENAI_API_KEY")
+        self.client = OpenAI()
+        self.parser = VerticalListOutputParser()
 
-    def send_data_to_api(self, data):
+    def send_data_to_api(self, data, role):
         # Implement the logic to send data to the API
         # You may want to loop through the data and send it line by line
 
@@ -23,13 +21,16 @@ class OpenAIClient(LLMClient):
             messages=[
                 {
                     "role": "system",
-                    "content": "Du bist eine Patientin bzw. ein Patient und lernst erst seit zwei Monaten Deutsch. Deswegen verfügst du nur über einen Basis-Wortschatz. Dir steht eine Mammographie bevor. Definiere in dem Ausmass, in dem es deine Deutschkenntnisse erlauben, zehn verschiedene Formulierungen einer Frage zur genannten Antwort. Deine Antwort ist eine .csv Datei mit den Spalten «antwort» und «frage». Die Spalte «antwort» bleibt dabei immer gleich und enthält die vorgegebene Antwort. ",
+                    "content": role + constants.TASK,
                 },
                 {
                     "role": "user",
-                    "content": "Für die Mammografie ist keine spezielle Vorbereitung notwendig. Möglicherweise Entfernung von Schmuck im Brustbereich.",
+                    "content": data,
                 },
             ],
         )
-        print(completion)
-        return completion
+        print("output: " + completion.choices[0].message.content)
+        output = completion.choices[0].message.content
+        parsed_output = self.parser.parse(output)
+        print("parsed output: " + str(parsed_output))
+        return parsed_output

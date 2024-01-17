@@ -8,5 +8,9 @@ class VerticalListOutputParser(BaseOutputParser[List[str]]):
     def parse(self, text: str) -> List[str]:
         """Parse the output of an LLM call."""
         split_answers = text.strip().split("\n")
-        output = [string.split(". ", 1)[1] for string in split_answers]
+        try:
+            output = [string.split(". ", 1)[1] for string in split_answers]
+        except IndexError as e:
+            print(split_answers)
+            output = split_answers
         return output
