@@ -13,7 +13,9 @@ class CSVHandler:
             next(reader)
             # Process and return the data as needed
             for row in reader:
-                examples.append(Example(row[0], row[1], row[2]))
+                examples.append(
+                    Example(identifier=row[0], question=row[1], answer=row[2])
+                )
 
         return examples
 

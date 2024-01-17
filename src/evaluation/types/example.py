@@ -1,6 +1,6 @@
 class Example:
     def __init__(
-        self, identifier, question, answer, qa_data, alternative_questions=None
+        self, identifier, question, answer, qa_data=None, alternative_questions=None
     ):
         if alternative_questions is None:
             alternative_questions = {}

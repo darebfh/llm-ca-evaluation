@@ -2,43 +2,43 @@
   "identifier": "1",
   "question": "Wie bereite ich mich auf eine Mammographie vor?",
   "answer": "Für die Mammografie ist keine spezielle Vorbereitung notwendig. Möglicherweise Entfernung von Schmuck im Brustbereich.",
-  "qa_data": {},
   "alternative_questions": {
     "high_literacy": [
-      "Worauf muss ich bei der Mammografie achten?",
-      "Was muss ich vor der Mammografie beachten?",
-      "Ist eine spezielle Vorbereitung für die Mammografie erforderlich?",
-      "Gibt es besondere Anweisungen für die Mammografie?",
-      "Muss ich meinen Schmuck vor der Mammografie entfernen?",
-      "Welche Schritte sollte ich vor der Mammografie unternehmen?",
-      "Wird eine Vorbereitung vor der Mammografie benötigt?",
-      "Gibt es irgendwelche Einschränkungen vor der Mammografie?",
-      "Welche Dinge sollte ich vor der Mammografie berücksichtigen?",
-      "Gibt es spezielle Empfehlungen vor der Mammografie?"
+      "Wird für die Mammografie eine besondere Vorbereitung benötigt?",
+      "Muss man sich auf die Mammografie irgendwie vorbereiten?",
+      "Gibt es bestimmte Dinge, die für die Mammografie vorher erledigt werden müssen?",
+      "Müssen für die Mammografie spezielle Maßnahmen getroffen werden?",
+      "Ist es erforderlich, etwas Bestimmtes vor der Mammografie zu beachten?",
+      "Gibt es spezielle Anforderungen an die Vorbereitung für die Mammografie?",
+      "Ist es notwendig, vor der Mammografie bestimmte Dinge zu berücksichtigen?",
+      "Muss man vor der Mammografie auf etwas Bestimmtes achten?",
+      "Sind irgendwelche speziellen Vorkehrungen für die Mammografie erforderlich?",
+      "Muss man für die Mammografie irgendwelche speziellen Vorkehrungen treffen?"
     ],
     "low_literacy": [
-      "Gibt es eine spezielle Vorbereitung für die Mammografie? ",
-      "Muss ich mich für die Mammografie auf irgendetwas vorbereiten? ",
-      "Brauche ich für die Mammografie spezielle Vorbereitungen? ",
-      "Ist eine bestimmte Vorbereitung für die Mammografie erforderlich? ",
-      "Sind vor der Mammografie spezielle Vorbereitungen notwendig? ",
-      "Müssen vor der Mammografie bestimmte Vorbereitungen getroffen werden? ",
-      "Gibt es vor der Mammografie spezielle Dinge, auf die ich achten muss? ",
-      "Muss ich vor der Mammografie etwas Bestimmtes beachten? ",
-      "Sind vor der Mammografie irgendwelche speziellen Maßnahmen erforderlich? ",
-      "Gibt es vor der Mammografie bestimmte Dinge, die ich tun oder vermeiden sollte?"
+      "Muss ich mich auf die Mammografie vorbereiten oder geht das ohne spezielle Maßnahmen?",
+      "Ist es erforderlich, vor der Mammografie etwas zu tun oder kann ich einfach so kommen?",
+      "Gibt es besondere Anforderungen für die Mammografie, auf die ich mich einstellen sollte?",
+      "Wird von mir erwartet, dass ich mich auf die Mammografie vorbereite, oder kann ich ohne weitere Maßnahmen hingehen?",
+      "Ist es notwendig, vor der Mammografie bestimmte Vorbereitungen zu treffen, oder kann ich einfach so zum Termin kommen?",
+      "Sollte ich mich auf die Mammografie vorbereiten oder reicht es, wenn ich einfach so erscheine?",
+      "Gibt es spezielle Anweisungen für die Mammografie, auf die ich achten sollte?",
+      "Muss ich mich auf die Mammografie vorbereiten, beispielsweise indem ich Schmuck im Brustbereich entferne?",
+      "Gibt es irgendetwas, was ich vor der Mammografie beachten oder tun muss?",
+      "Sollte ich mich auf die Mammografie vorbereiten und zum Beispiel Schmuck im Brustbereich ablegen?"
     ],
     "poor_german": [
-      "Ist eine spezielle Vorbereitung für die Mammografie erforderlich?",
-      "Muss ich vor der Mammografie etwas Besonderes beachten?",
-      "Gibt es vor der Mammografie spezielle Hinweise oder Vorgaben?",
-      "Sind irgendwelche Vorbereitungen für die Mammografie erforderlich?",
-      "Sollte ich vor der Mammografie etwas bestimmtes tun oder lassen?",
-      "Gibt es spezielle Vorkehrungen, die vor der Mammografie getroffen werden müssen?",
-      "Muss ich vor der Mammografie meinen Brustschmuck entfernen?",
-      "Ist es notwendig, vor der Mammografie Schmuck im Brustbereich abzulegen?",
-      "Muss mein Schmuck vor der Mammografie im Brustbereich entfernt werden?",
-      "Gibt es bestimmte Schritte, die vor der Mammografie bezüglich des Brustschmucks durchgeführt werden sollten?"
+      "Ist es erforderlich, sich speziell auf die Mammografie vorzubereiten?",
+      "Muss man vor der Mammografie besondere Maßnahmen ergreifen?",
+      "Gibt es Dinge, auf die man vor der Mammografie achten sollte?",
+      "Welche Vorbereitungen sind für die Mammografie erforderlich?",
+      "Ist es notwendig, vor der Mammografie Schmuck im Brustbereich zu entfernen?",
+      "Muss man vor der Mammografie eventuell Schmuck im Brustbereich abnehmen?",
+      "Sind besondere Vorbereitungen vor der Mammografie erforderlich, wie zum Beispiel das Abnehmen von Schmuck im Brustbereich?",
+      "Sollte man vor der Mammografie spezielle Vorkehrungen treffen oder genügt es, Schmuck im Brustbereich zu entfernen?",
+      "Gibt es bestimmte Dinge, die man vor der Mammografie beachten sollte, wie beispielsweise das Entfernen von Schmuck im Brustbereich?",
+      "Welche Maßnahmen muss man vor der Mammografie ergreifen, um sich richtig darauf vorzubereiten, zum Beispiel das Abnehmen von Schmuck im Brustbereich?"
     ]
-  }
+  },
+  "qa_data": {}
 }

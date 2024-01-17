@@ -1,0 +1,44 @@
+{
+  "identifier": "4",
+  "question": "Wie oft sollte ich eine Mammographie machen lassen?",
+  "answer": "Nach Empfehlung der Schweizer Krebsliga sollte eine Mammografie alle 2 Jahre für Frauen ab 50 durchgeführt werden. In Absprache mit Ihrem Hausarzt oder Frauenarzt.",
+  "alternative_questions": {
+    "high_literacy": [
+      "Wie oft sollte eine Mammografie durchgeführt werden, und ab welchem Alter wird sie empfohlen?",
+      "Welche Empfehlungen gibt es von der Schweizer Krebsliga bezüglich der Häufigkeit von Mammografien bei Frauen ab 50 Jahren?",
+      "Wann sollte man laut der Schweizer Krebsliga eine Mammografie machen lassen, und wer sollte sie durchführen?",
+      "Was ist die Empfehlung der Schweizer Krebsliga bezüglich der Häufigkeit von Mammografien bei Frauen ab 50 Jahren?",
+      "Wie oft sollte man eine Mammografie machen lassen, wenn man 50 Jahre oder älter ist, und wer sollte sie durchführen?",
+      "Ab welchem Alter und wie oft sollte eine Mammografie laut der Schweizer Krebsliga gemacht werden?",
+      "Gibt es eine bestimmte Häufigkeit, mit der Mammografien bei Frauen ab 50 Jahren empfohlen werden, und wenn ja, wie oft?",
+      "Welche Empfehlung gibt es von der Schweizer Krebsliga bezüglich der Häufigkeit von Mammografien bei Frauen im Alter von 50 Jahren und älter?",
+      "In welchem Abstand sollten Frauen ab 50 Jahren laut der Empfehlung der Schweizer Krebsliga eine Mammografie machen lassen?",
+      "Wie oft sollte eine Mammografie bei Frauen ab 50 Jahren gemacht werden, und wer sollte die Durchführung koordinieren?"
+    ],
+    "low_literacy": [
+      "Wie oft sollte ich ab dem Alter von 50 Jahren eine Mammografie machen lassen? In welchem Zeitabstand?",
+      "Ist es wichtig, dass ich als Frau über 50 alle zwei Jahre eine Mammografie mache? Soll ich das mit meinem Hausarzt oder Frauenarzt besprechen?",
+      "Gibt es eine bestimmte Zeitdauer, in der ich als Frau über 50 eine Mammografie machen lassen sollte? Sollte ich das mit meinem Hausarzt oder Frauenarzt absprechen?",
+      "Wie häufig sollte ich ab dem Alter von 50 Jahren eine Mammografie durchführen lassen? In welchem Abstand? Sollte ich das mit meinem Hausarzt oder Frauenarzt besprechen?",
+      "Wie oft ist empfohlen, dass ich als Frau ab 50 Jahren eine Mammografie mache? In welchem Intervall? Sollte ich das mit meinem Hausarzt oder Frauenarzt abstimmen?",
+      "Wie oft sollte ich ab dem Alter von 50 Jahren eine Mammografie machen lassen? Gibt es einen bestimmten Zeitrahmen, den ich beachten sollte? Sollte ich das vorher mit meinem Hausarzt oder Frauenarzt besprechen?",
+      "In welchem Zeitabstand sollte ich ab dem Alter von 50 Jahren eine Mammografie machen lassen? Wie oft ist empfohlen? Sollte ich das mit meinem Hausarzt oder Frauenarzt absprechen?",
+      "Wie häufig sollte ich als Frau über 50 Jahren eine Mammografie machen lassen? Gibt es einen festgelegten Zeitraum? Sollte ich das mit meinem Hausarzt oder Frauenarzt klären?",
+      "Gibt es eine bestimmte Regelmäßigkeit, in der ich als Frau ab 50 Jahren eine Mammografie machen lassen sollte? Wie oft? Sollte ich das vorher mit meinem Hausarzt oder Frauenarzt besprechen?",
+      "Wie oft sollte ich ab dem Alter von 50 Jahren eine Mammografie durchführen lassen? In welcher Frequenz? Sollte ich das mit meinem Hausarzt oder Frauenarzt abklären?"
+    ],
+    "poor_german": [
+      "Wie oft sollte eine Mammografie für Frauen ab 50 Jahren gemäß der Empfehlung der Schweizer Krebsliga durchgeführt werden?",
+      "Ab welchem Alter empfiehlt die Schweizer Krebsliga, dass Frauen alle 2 Jahre eine Mammografie machen sollten?",
+      "Wie oft sollte eine Frau ab 50 Jahren gemäß der Empfehlung der Schweizer Krebsliga eine Mammografie machen lassen?",
+      "Welche Empfehlung gibt die Schweizer Krebsliga bezüglich der Häufigkeit von Mammografien für Frauen ab 50?",
+      "Inwiefern empfiehlt die Schweizer Krebsliga, dass Frauen ab dem Alter von 50 Jahren alle 2 Jahre eine Mammografie machen sollten?",
+      "Was sagt die Schweizer Krebsliga zur empfohlenen Häufigkeit von Mammografien für Frauen ab 50 Jahren aus?",
+      "Wie oft sollten Frauen ab 50 Jahren gemäß der Empfehlung der Schweizer Krebsliga eine Mammografie machen?",
+      "Ab welchem Alter sollten Frauen laut der Schweizer Krebsliga alle 2 Jahre eine Mammografie machen lassen?",
+      "Gibt es eine spezifische Empfehlung der Schweizer Krebsliga zur Häufigkeit von Mammografien für Frauen ab 50 Jahren?",
+      "Auf welche regelmäßige Durchführung von Mammografien weist die Schweizer Krebsliga für Frauen ab 50 Jahren hin?"
+    ]
+  },
+  "qa_data": {}
+}

@@ -1,18 +1,19 @@
 import json
 import os
 
+import constants
 from evaluation.types.example import Example
 
 
 class JsonHandler:
     def __init__(self):
-        self.folder_path = "./data/output"
+        self.folder_path_variations = constants.QAP_VARIATIONS_OUTPUT_FOLDER
 
-    def load_examples_from_folder(self):
+    def load_generated_variations(self):
         # Iterate over all files in the folder
         examples = []
-        for filename in os.listdir(self.folder_path):
-            file_path = os.path.join(self.folder_path, filename)
+        for filename in os.listdir(self.folder_path_variations):
+            file_path = os.path.join(self.folder_path_variations, filename)
 
             # Check if the file is a regular file (not a directory)
             if os.path.isfile(file_path):

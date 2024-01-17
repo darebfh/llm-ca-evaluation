@@ -6,60 +6,69 @@ from dotenv import load_dotenv, find_dotenv
 
 from evaluation import qa_client
 from evaluation.utility import json_handler, csv_handler
-from lc_automated_evaluator import LangChainAutomatedEvaluator
 import json
 
 
 class Evaluator:
     def __init__(self):
         load_dotenv(find_dotenv())
+        self.openai_client = openai_client.OpenAIClient()
         self.qa_client = qa_client.QAClient(constants.QA_ENDPOINT)
         self.csv_handler = csv_handler.CSVHandler()
         self.json_handler = json_handler.JsonHandler()
         self.roles = constants.ROLES
         self.examples = []
 
-    def run_automated_test_lc(self):
-        for example in self.examples:
-            answer = example.answer
-            print("Running automated test for answer: " + answer)
-            alternative_questions = self.run_langchain_test(answer)
-            example.alternative_questions = alternative_questions
-            self.save_object(example, example.identifier)
+        if os.getenv("TEST") == "True":
+            # Question variations already generated, loading from files
+            self.examples = self.json_handler.load_generated_variations()
+            print("Loaded " + str(len(self.examples)) + " examples")
+            print(self.examples)
+        else:
+            # Load examples from CSV
+            self.examples = self.csv_handler.read_csv(constants.QAP_DEFINITIONS_FILE)
+            # Generate question variations
+            self.get_question_variations_for_all_qaps()
+            if constants.QAP_LIMIT:
+                print(
+                    "TEST MODE - Limiting examples to "
+                    + str(constants.QAP_LIMIT)
+                    + " examples"
+                )
+                self.examples = self.examples[
+                    constants.QAP_LIMIT[0] : constants.QAP_LIMIT[1]
+                ]
 
-    def run_automated_test_openai(self):
+    def get_question_variations_for_all_qaps(self):
         for example in self.examples:
-            answer = example.answer
-            print("Running automated test for answer: " + answer)
-            alternative_questions = self.run_openai_test(answer)
+            question = example.question
+            print("Generating variations for question: " + question)
+            alternative_questions = self.get_question_variations_for_qap(question)
             example.alternative_questions = alternative_questions
-            print(example)
             # example["created_at"] = datetime.datetime.now().isoformat()
-            self.save_object(example, example.identifier)
-        self.get_qa_response()
+            self.save_object(
+                example, constants.QAP_VARIATIONS_OUTPUT_FOLDER + example.identifier
+            )
+            input("Press Enter to continue...")
 
-    def get_qa_response(self):
+    def get_question_variations_for_qap(self, question):
+        result = {}
+        for role in self.roles:
+            print("Getting questions for role: " + role)
+            result[role] = self.openai_client.send_data_to_api(question, role)
+        return result
+
+    def get_qa_response_for_all_variations(self):
         for example in self.examples:
             for role, questions in example.alternative_questions.items():
                 example.qa_data[role] = {}
                 for question in questions:
                     answer = self.qa_client.get_answer(question)
                     example.qa_data[role][question] = answer
-                self.save_object(example, example.identifier + "_qa")
-
-    def run_langchain_test(self, answer):
-        langchain = LangChainAutomatedEvaluator(roles=self.roles)
-        results = langchain.get_alternative_questions(answer)
-        return results
-
-    def run_openai_test(self, answer):
-        openai = openai_client.OpenAIClient()
-        result = {}
-        print("Getting questions for answer: " + answer)
-        for role in self.roles:
-            print("Getting questions for role: " + role)
-            result[role] = openai.send_data_to_api(answer, role)
-        return result
+                self.save_object(
+                    example,
+                    constants.QA_ANSWERS_OUTPUT_FOLDER + example.identifier + "_qa",
+                )
 
     def compute_metrics(self):
         for example in self.examples:
@@ -79,25 +88,13 @@ class Evaluator:
                 incorrect_answers += 1
 
     @staticmethod
-    def save_object(obj, filename):
+    def save_object(obj, full_path):
         print(json.dumps(obj, ensure_ascii=False, default=lambda o: o.__dict__))
-        with open("data/output/" + filename + ".json", "w") as outfile:
+        with open(full_path + ".json", "w") as outfile:
             json.dump(obj, outfile, ensure_ascii=False, default=lambda o: o.__dict__)
 
 
 if __name__ == "__main__":
     evaluator = Evaluator()
-    if os.getenv("TEST") == "True":
-        print(
-            "TEST MODE - Limiting examples to "
-            + str(constants.TEST_LIMIT)
-            + " examples"
-        )
-        evaluator.examples = evaluator.json_handler.load_examples_from_folder()
-        print("Loaded " + str(len(evaluator.examples)) + " examples")
-        print(evaluator.examples)
-    else:
-        evaluator.examples = evaluator.examples[: constants.TEST_LIMIT]
-        evaluator.run_automated_test_openai()
-    evaluator.get_qa_response()
+    evaluator.get_qa_response_for_all_variations()
     evaluator.compute_metrics()
