@@ -13,4 +13,5 @@ class VerticalListOutputParser(BaseOutputParser[List[str]]):
         except IndexError as e:
             print(split_answers)
             output = split_answers
+        filter(None, output)
         return output

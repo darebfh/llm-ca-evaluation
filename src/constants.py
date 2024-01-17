@@ -4,6 +4,7 @@ QA_ENDPOINT = "https://dmia.public.medinflab.ti.bfh.ch/answer"
 QAP_DEFINITIONS_FILE = "data/input/qa_content.csv"
 QAP_VARIATIONS_OUTPUT_FOLDER = "data/output/variations/"
 QA_ANSWERS_OUTPUT_FOLDER = "data/output/qa_answers/"
+EVALUATION_RESULTS_OUTPUT_FOLDER = "data/output/metrics/"
 
 
 ROLES = {

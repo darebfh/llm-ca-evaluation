@@ -7,7 +7,7 @@ from evaluation.types.example import Example
 
 class JsonHandler:
     def __init__(self):
-        self.folder_path_variations = constants.QAP_VARIATIONS_OUTPUT_FOLDER
+        self.folder_path_variations = constants.QA_ANSWERS_OUTPUT_FOLDER
 
     def load_generated_variations(self):
         # Iterate over all files in the folder

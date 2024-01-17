@@ -20,7 +20,7 @@ class Evaluator:
         self.roles = constants.ROLES
         self.examples = []
 
-        if os.getenv("TEST") == "True":
+        if os.getenv("GET_VARIANTS") == "False":
             # Question variations already generated, loading from files
             self.examples = self.json_handler.load_generated_variations()
             print("Loaded " + str(len(self.examples)) + " examples")
@@ -75,22 +75,91 @@ class Evaluator:
                 )
 
     def compute_metrics(self):
+        example_results = {
+            "results_all_examples": {},
+            "correct_answers_total": 0,
+            "correct_answers_total_per_role": {},
+            "incorrect_answers_total": 0,
+            "variation_too_short_total": 0,
+            "no_answer_found_total": 0,
+        }
+
         for example in self.examples:
-            self.compute_metrics_for_example(example)
+            result = self.compute_metrics_for_example(example)
+            example_results["results_all_examples"][example.identifier] = result
+            example_results["correct_answers_total"] += result[
+                "qap_correct_answers_total"
+            ]
+            example_results["incorrect_answers_total"] += result[
+                "qap_incorrect_answers_total"
+            ]
+            example_results["variation_too_short_total"] += result[
+                "qap_variation_too_short"
+            ]
+            example_results["no_answer_found_total"] += result["qap_no_answer_found"]
+            for role, correct_answers in result[
+                "qap_correct_answers_total_per_role"
+            ].items():
+                if role not in example_results["correct_answers_total_per_role"]:
+                    example_results["correct_answers_total_per_role"][role] = 0
+                example_results["correct_answers_total_per_role"][
+                    role
+                ] += correct_answers
+        filename = (
+            constants.EVALUATION_RESULTS_OUTPUT_FOLDER
+            + "evaluation_results"
+            + datetime.datetime.now().isoformat()
+        )
+        self.save_object(example_results, filename)
 
     def compute_metrics_for_example(self, example):
+        example_result = {
+            "qap_results_all_roles": {},
+            "qap_correct_answers_total": 0,
+            "qap_correct_answers_total_per_role": {},
+            "qap_incorrect_answers_total": 0,
+            "qap_variation_too_short": 0,
+            "qap_no_answer_found": 0,
+        }
+
         for role in self.roles:
-            self.compute_metrics_for_role(example, role)
+            result = self.compute_metrics_for_role(example, role)
+            example_result["qap_results_all_roles"][role] = result
+            example_result["qap_correct_answers_total"] += result[
+                "role_correct_answers"
+            ]
+            example_result["qap_incorrect_answers_total"] += result[
+                "role_incorrect_answers_total"
+            ]
+            example_result["qap_variation_too_short"] += result[
+                "role_variation_too_short"
+            ]
+            example_result["qap_no_answer_found"] += result["role_no_answer_found"]
+            example_result["qap_correct_answers_total_per_role"][role] = result[
+                "role_correct_answers"
+            ]
+        example.metrics = example_result
+        return example_result
 
     def compute_metrics_for_role(self, example, role):
-        correct_answers = 0
-        incorrect_answers = 0
+        role_result = {
+            "role_correct_answers": 0,
+            "role_variation_too_short": 0,
+            "role_no_answer_found": 0,
+            "role_incorrect_answers_total": 0,
+        }
         for question, answer in example.qa_data[role].items():
             if answer == example.answer:
-                correct_answers += 1
+                role_result["role_correct_answers"] += 1
+            elif answer == "400":
+                role_result["role_variation_too_short"] += 1
+                role_result["role_incorrect_answers_total"] += 1
+            elif answer == "500":
+                role_result["role_no_answer_found"] += 1
+                role_result["role_incorrect_answers_total"] += 1
             else:
-                incorrect_answers += 1
-        return correct_answers, incorrect_answers
+                role_result["role_incorrect_answers_total"] += 1
+        return role_result
 
     @staticmethod
     def save_object(obj, full_path):
@@ -101,5 +170,9 @@ class Evaluator:
 
 if __name__ == "__main__":
     evaluator = Evaluator()
-    evaluator.get_qa_response_for_all_variations()
-    evaluator.compute_metrics()
+    if os.getenv("GET_ANSWERS") == "True":
+        print("Getting answers for all variations")
+        evaluator.get_qa_response_for_all_variations()
+    if os.getenv("EVALUATE") == "True":
+        print("Evaluating results")
+        evaluator.compute_metrics()
