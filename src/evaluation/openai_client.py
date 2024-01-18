@@ -14,7 +14,8 @@ class OpenAIClient:
     def generate_new_questions_for_role(self, role):
         print("Role: ", role)
         completion = self.client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            seed=constants.SEED,
+            model="gpt-4",
             messages=[
                 {
                     "role": "system",
@@ -34,7 +35,8 @@ class OpenAIClient:
         # You may want to loop through the data and send it line by line
         print("Role: ", role)
         completion = self.client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            seed=constants.SEED,
+            model="gpt-4",
             messages=[
                 {
                     "role": "system",

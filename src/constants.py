@@ -7,6 +7,8 @@ QA_ANSWERS_OUTPUT_FOLDER = "data/output/qa_answers/"
 EVALUATION_RESULTS_OUTPUT_FOLDER = "data/output/metrics/"
 NEW_QUESTIONS_OUTPUT_FOLDER = "data/output/new_questions/"
 
+SEED = 42
+
 
 ROLES = {
     "high_literacy": {
