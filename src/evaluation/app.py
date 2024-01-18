@@ -199,6 +199,9 @@ if __name__ == "__main__":
     if os.getenv("EVALUATE") == "True":
         print("Evaluating results")
         evaluator.compute_metrics()
+    if os.getenv("GEN_NEW_QUESTIONS") == "True":
+        print("Generating new questions")
+        evaluator.get_new_questions_for_domain()
 
 
 def generate_new_questions():
