@@ -29,6 +29,7 @@ test = {cmd = "python -m unittest discover -s ./tests -p \"test_*.py\""}
 check-import-order = {cmd = "isort ./src ./test --check-only"}
 fix-import-order = {cmd = "isort ./src ./test"}
 evaluate = {cmd= "python ./src/evaluation/main.py"}
+generate-new-questions = {call = "src.evaluation.app:generate_new_questions"}
 
 [tool.isort]
 profile = "black"

@@ -5,6 +5,7 @@ QAP_DEFINITIONS_FILE = "data/input/qa_content.csv"
 QAP_VARIATIONS_OUTPUT_FOLDER = "data/output/variations/"
 QA_ANSWERS_OUTPUT_FOLDER = "data/output/qa_answers/"
 EVALUATION_RESULTS_OUTPUT_FOLDER = "data/output/metrics/"
+NEW_QUESTIONS_OUTPUT_FOLDER = "data/output/new_questions/"
 
 
 ROLES = {
@@ -62,6 +63,12 @@ ROLES = {
 
 TASK = (
     "Definiere anhand folgender Frage zehn möglichst unterschiedliche Versionen dieser Frage. Passe deine "
+    "Wortwahl an deine Gesundheitskompetenz und dein Sprachniveau an. Gib jeweils nur die Frage getrennt "
+    "durch einen Zeilenumbruch (\n) zurück."
+)
+
+TASK_NEW_QUESTIONS = (
+    "Definiere anhand folgender Beschreibung zehn möglichst unterschiedliche Fragen an deinen Arzt bzw. deine Ärztin. Passe deine "
     "Wortwahl an deine Gesundheitskompetenz und dein Sprachniveau an. Gib jeweils nur die Frage getrennt "
     "durch einen Zeilenumbruch (\n) zurück."
 )

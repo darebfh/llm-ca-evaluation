@@ -2,7 +2,7 @@ import datetime
 import os
 
 import constants
-import openai_client
+from evaluation import openai_client
 from dotenv import load_dotenv, find_dotenv
 
 from evaluation import qa_client
@@ -57,7 +57,9 @@ class Evaluator:
         result = {}
         for role_name, role_details in self.roles.items():
             print("Getting questions for role: " + role_name)
-            result[role_name] = self.openai_client.send_data_to_api(
+            result[
+                role_name
+            ] = self.openai_client.generate_question_variations_for_role(
                 question, role_details
             )
         return result
@@ -73,6 +75,27 @@ class Evaluator:
                     example,
                     constants.QA_ANSWERS_OUTPUT_FOLDER + example.identifier,
                 )
+
+    def get_new_questions_for_domain(self):
+        new_questions = {}
+        for role_name, role_details in self.roles.items():
+            result = self.openai_client.generate_new_questions_for_role(role_details)
+            new_questions[role_name] = result
+        self.save_object(
+            new_questions,
+            constants.NEW_QUESTIONS_OUTPUT_FOLDER + datetime.datetime.now().isoformat(),
+        )
+        new_qaps = []
+        for role, questions in new_questions.items():
+            for question in questions:
+                answer = self.qa_client.get_answer(question)
+                new_qaps.append((question, answer))
+        filepath = (
+            constants.NEW_QUESTIONS_OUTPUT_FOLDER
+            + datetime.datetime.now().isoformat()
+            + ".csv"
+        )
+        self.csv_handler.write_to_csv(filepath, new_qaps, ["question", "answer"])
 
     def compute_metrics(self):
         example_results = {
@@ -176,3 +199,8 @@ if __name__ == "__main__":
     if os.getenv("EVALUATE") == "True":
         print("Evaluating results")
         evaluator.compute_metrics()
+
+
+def generate_new_questions():
+    evaluator = Evaluator()
+    evaluator.get_new_questions_for_domain()

@@ -1,18 +1,35 @@
 from openai import OpenAI
 import constants
 
-from evaluation.llm_client import LLMClient
 from evaluation.utility.vertical_list_output_parser import VerticalListOutputParser
 
 
-class OpenAIClient(LLMClient):
+class OpenAIClient:
     def __init__(self):
         super().__init__()
         # key = os.getenv("OPENAI_API_KEY")
         self.client = OpenAI()
         self.parser = VerticalListOutputParser()
 
-    def send_data_to_api(self, data, role):
+    def generate_new_questions_for_role(self, role):
+        print("Role: ", role)
+        completion = self.client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {
+                    "role": "system",
+                    "content": constants.TASK_NEW_QUESTIONS,
+                },
+                {
+                    "role": "user",
+                    "content": role["description"],
+                },
+            ],
+        )
+
+        return self.format_output(completion)
+
+    def generate_question_variations_for_role(self, data, role):
         # Implement the logic to send data to the API
         # You may want to loop through the data and send it line by line
         print("Role: ", role)
@@ -34,6 +51,9 @@ class OpenAIClient(LLMClient):
                 },
             ],
         )
+        return self.format_output(completion)
+
+    def format_output(self, completion):
         print("output: " + completion.choices[0].message.content)
         output = completion.choices[0].message.content
         parsed_output = self.parser.parse(output)
