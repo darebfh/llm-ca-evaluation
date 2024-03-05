@@ -14,6 +14,3 @@
 - Run 'pdm run evaluate' to start the evaluation tool
 - The output will be saved to ./data/output/
 
-WIP: Explain fully automated and semi-automated evaluation.
-
-

@@ -1,4 +1,4 @@
-QAP_LIMIT = (0, 2)
+QAP_LIMIT = None
 QA_ENDPOINT = "https://dmia.public.medinflab.ti.bfh.ch/answer"
 
 QAP_DEFINITIONS_FILE = "data/input/qa_content.csv"

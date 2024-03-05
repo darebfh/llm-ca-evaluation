@@ -1,0 +1,38 @@
+{
+  "high_literacy": [
+    "Können Sie mir bitte die eigentliche Pathophysiologie und die diagnostischen Möglichkeiten von Brustkrebs erläutern?",
+    "Welche unterschiedlichen Spektren von Brustdichte existieren und was beinhaltet die radiologische Klassifizierung?",
+    "Können Sie eventuelle falsch-positive oder falsch-negative Ergebnisse meiner anstehenden Mammographie und deren klinischen Implikationen erläutern?",
+    "Wie hoch ist die Sensitivität und Spezifität der Mammographie im Hinblick auf mein persönliches Brustkrebsrisiko?",
+    "Welche Innovationen in der Mammographietechnologie, wie z.B. 3D-Mammographie, würden Sie empfehlen und warum?",
+    "Wie genau wird der BIRADS-Score berechnet und wie kann dieser bei meiner Diagnose und Behandlung helfen?",
+    "Könnten Sie die Bedeutung von Mikrokalzifikationen auf Mammographien und deren Assoziation mit malignen Tumoren erläutern?",
+    "Was sind die Risiken und Vorteile von Mammographie-Screenings in meiner aktuellen Altersgruppe?",
+    "Wann und warum wären ergänzende bildgebende Verfahren wie z.B. eine Magnetresonanztomographie der Brust angebracht?",
+    "Gibt es irgendwelche Kontraindikationen bei der Verwendung von Kontrastmitteln bei der Mammographie und welches Kontrastmittel würden Sie empfehlen?"
+  ],
+  "low_literacy": [
+    "Was ist eine Mammographie?",
+    "Tut diese Untersuchung weh?",
+    "Muss ich etwas Bestimmtes machen oder mitbringen?",
+    "Wie lange dauert die Untersuchung?",
+    "Ist es gefährlich?",
+    "Kann ich danach gleich nach Hause gehen?",
+    "Was kann man bei dieser Untersuchung sehen?",
+    "Wann kriege ich die Ergebnisse?",
+    "Was passiert, wenn etwas nicht gut aussieht?",
+    "Gibt es eine andere Untersuchung, die ich machen könnte?"
+  ],
+  "poor_german": [
+    "Mammographie tun weh?",
+    "Was ist Mammographie?",
+    "Ich wie vorbereiten für Mammographie? ",
+    "Wie lange Mammographie dauern? ",
+    "Ich schwanger, Mammographie okay? ",
+    "Was Mammographie sehen? ",
+    "Was passiert nach Mammographie? ",
+    "Mammographie gebraucht Kleidung spezial? ",
+    "Mammographie, wie oft machen? ",
+    "Mammographie, wann Ergebnis haben?"
+  ]
+}

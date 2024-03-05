@@ -1,0 +1,92 @@
+{
+  "alternative_questions": {
+    "high_literacy": [
+      "1. Gibt es spezifische Instruktionen hinsichtlich medizinischer, ernährungstechnischer oder anderweitiger Vorkehrungen, die ich im Voraus einer Mammografie einzuhalten habe?",
+      "",
+      "2. Welche vorgegebenen Parameter, wie etwa Medikationseinstellung, Ernährungsbeschränkungen oder Physiologie betreffende Aspekte sollten vor der angesetzten Mammographie in Betracht gezogen werden?",
+      "",
+      "3. Könnten Sie mir bitte informieren, welche vorbereitenden Schritte im Zusammenhang mit meinem persönlichen Gesundheitsprofil vor der Mammographie-Untersuchung notwendig sind?",
+      "",
+      "4. Gibt es bestimmte Richtlinien oder Empfehlungen im Zusammenhang mit meiner physischen oder hormonellen Verfassung, die im Vorfeld der Mammographie berücksichtigt werden sollten?",
+      "",
+      "5. Könnten Sie mich bitte über etwaige Kontraindikationen, Beeinträchtigungen oder modifizierbare Risikofaktoren aufklären, die vor dem Mammographie-Screening Beachtung finden sollten?",
+      "",
+      "6. Welche präventiven Prozeduren bezüglich der Aufnahme von Lebensmitteln, bestimmten Medikamenten oder anderweitigen relevanten Variablen müssen vor der Mammographie stringent umgesetzt werden?",
+      "",
+      "7. Würden Sie mir bitte detaillierte Ratschläge bezüglich der Schritte, die ich in der Vorbereitungsphase vor der Mammographie unternehmen sollte, zukommen lassen?",
+      "",
+      "8. Könnten Sie mir eine umfassende Aufklärung zu den relevanten prä-Mammographie-Protokollen und den zu befolgenden Anweisungen geben?",
+      "",
+      "9. Möchte ich von Ihnen wissen, ob es Indikationen oder Empfehlungen gibt, die ich im Hinblick auf meine persönlichen oder medizinischen Umstände vor der Mammographie berücksichtigen sollte?",
+      "",
+      "10. Könnten Sie spezifizieren, welche vorbereitenden Maßnahmen, eventuelle Kontraindikationen oder Anpassungen im Vorfeld einer Mammographie angemessen und wünschenswert sind?"
+    ],
+    "low_literacy": [
+      "Was sollte ich vor dieser Mammografie tun oder lassen?",
+      "Gibt's Sachen, die ich vor der Mammographie vermeiden soll?",
+      "Muss ich vor der Mammografie auf etwas aufpassen? ",
+      "Ich habe bald eine Mammografie, gibt es was, dass ich wisen sollte, bevor das passiert?",
+      "Gibt es etwas, das ich vor der Mammographie nicht tun darf?",
+      "Ist da irgendwas, was ich beachten muss, bevor ich zur Mammographie gehe?",
+      "Was ist wichtig zu wissen, bevor ich die Mammographie mache?",
+      "Soll ich vor der Mammographie was Bestimmtes tun?",
+      "Muss ich etwas Besonderes machen, bevor ich zur Mammographie komme?",
+      "Soll ich vor der Mammographie auf irgendwas Bestimmtes achten?"
+    ],
+    "poor_german": [
+      "Gibt es Regel vor Mammografie?",
+      "Ich muss machen was vor Mammografie?",
+      "Vor Mammografie, ich tun was?",
+      "Muss ich vor Mammografie vorbereiten wie?",
+      "Ich muss beachten was vor Mammografie?",
+      "Mammografie vor, ich muss was machen?",
+      "Wie ich bereite für Mammografie?",
+      "Was wichtig vor Mammografie?",
+      "Muss beachten, vor Mammografie werfen was?",
+      "Ich weiß nicht, was tun vor Mammografie. Du erklären bitte?"
+    ]
+  },
+  "qa_data": {
+    "high_literacy": {
+      "1. Gibt es spezifische Instruktionen hinsichtlich medizinischer, ernährungstechnischer oder anderweitiger Vorkehrungen, die ich im Voraus einer Mammografie einzuhalten habe?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "2. Welche vorgegebenen Parameter, wie etwa Medikationseinstellung, Ernährungsbeschränkungen oder Physiologie betreffende Aspekte sollten vor der angesetzten Mammographie in Betracht gezogen werden?": "Eine frühere Krebserkennung verbessert möglicherweise die Therapiechancen.",
+      "3. Könnten Sie mir bitte informieren, welche vorbereitenden Schritte im Zusammenhang mit meinem persönlichen Gesundheitsprofil vor der Mammographie-Untersuchung notwendig sind?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "4. Gibt es bestimmte Richtlinien oder Empfehlungen im Zusammenhang mit meiner physischen oder hormonellen Verfassung, die im Vorfeld der Mammographie berücksichtigt werden sollten?": "Dies hängt von Ihrer Fehlbildung ab. Fragen Sie zu Ihrem Anliegen bitte Ihren Arzt.",
+      "5. Könnten Sie mich bitte über etwaige Kontraindikationen, Beeinträchtigungen oder modifizierbare Risikofaktoren aufklären, die vor dem Mammographie-Screening Beachtung finden sollten?": "Es besteht das Risiko eines falsch positiven Befundes, d.h. dass auf den Mammographiebildern der Verdacht auf eine bösartige Erkrankung geäussert wird, die sich in der anschliessenden Gewebeprobe (Biopsie) nicht bestätigt. Die Mammographie ist ein bildgebendes Verfahren, das Strahlung verwendet, hierdurch können DNA-Schäden entstehen.",
+      "6. Welche präventiven Prozeduren bezüglich der Aufnahme von Lebensmitteln, bestimmten Medikamenten oder anderweitigen relevanten Variablen müssen vor der Mammographie stringent umgesetzt werden?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "7. Würden Sie mir bitte detaillierte Ratschläge bezüglich der Schritte, die ich in der Vorbereitungsphase vor der Mammographie unternehmen sollte, zukommen lassen?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "8. Könnten Sie mir eine umfassende Aufklärung zu den relevanten prä-Mammographie-Protokollen und den zu befolgenden Anweisungen geben?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "9. Möchte ich von Ihnen wissen, ob es Indikationen oder Empfehlungen gibt, die ich im Hinblick auf meine persönlichen oder medizinischen Umstände vor der Mammographie berücksichtigen sollte?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "10. Könnten Sie spezifizieren, welche vorbereitenden Maßnahmen, eventuelle Kontraindikationen oder Anpassungen im Vorfeld einer Mammographie angemessen und wünschenswert sind?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant."
+    },
+    "low_literacy": {
+      "Was sollte ich vor dieser Mammografie tun oder lassen?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Gibt's Sachen, die ich vor der Mammographie vermeiden soll?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Muss ich vor der Mammografie auf etwas aufpassen? ": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Ich habe bald eine Mammografie, gibt es was, dass ich wisen sollte, bevor das passiert?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Gibt es etwas, das ich vor der Mammographie nicht tun darf?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Ist da irgendwas, was ich beachten muss, bevor ich zur Mammographie gehe?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Was ist wichtig zu wissen, bevor ich die Mammographie mache?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Soll ich vor der Mammographie was Bestimmtes tun?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Muss ich etwas Besonderes machen, bevor ich zur Mammographie komme?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Soll ich vor der Mammographie auf irgendwas Bestimmtes achten?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant."
+    },
+    "poor_german": {
+      "Gibt es Regel vor Mammografie?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Ich muss machen was vor Mammografie?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Vor Mammografie, ich tun was?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Muss ich vor Mammografie vorbereiten wie?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Ich muss beachten was vor Mammografie?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Mammografie vor, ich muss was machen?": "Nein, Sie müssen nichts besonderes tun, nachdem Sie eine Mammographie hatten.",
+      "Wie ich bereite für Mammografie?": "Für die Mammografie ist keine spezielle Vorbereitung notwendig. Möglicherweise Entfernung von Schmuck im Brustbereich.",
+      "Was wichtig vor Mammografie?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Muss beachten, vor Mammografie werfen was?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+      "Ich weiß nicht, was tun vor Mammografie. Du erklären bitte?": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant."
+    }
+  },
+  "metrics": {},
+  "identifier": "28",
+  "question": "Muss ich vor der Mammographie etwas beachten?",
+  "answer": "Benutzen Sie bitte vor der Untersuchung keine Kosmetika wie Bodylotion oder Deodorant.",
+  "variations_created_at": "2024-01-18T10:54:57.620402"
+}

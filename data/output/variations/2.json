@@ -1,0 +1,55 @@
+{
+  "alternative_questions": {
+    "high_literacy": [
+      "1. Würden Sie es für zutreffend halten, zu postulieren, dass die Durchführung einer Mammografie Schmerzen oder Unannehmlichkeiten verursachen kann? ",
+      "",
+      "2. Ist es im Verlauf des mammografischen Prozesses gegeben, dass aufgrund der Kompression und des resultierenden Drucks auf das Brustgewebe Schmerzempfindungen hervorgerufen werden?",
+      "",
+      "3. Könnten Sie erklären, ob die Sensation der potentiellen Discomfort während einer Mammografie auf dem Maß der Kompression und der individuellen Schmerztoleranz des Patienten basiert?",
+      "",
+      "4. Verursacht die morphologische Evaluierung des Brustgewebes mittels Mammografie für gewöhnlich signifikante physische Beschwerden, oder wird diese allgemein als schmerzfrei eingestuft?",
+      "",
+      "5. Kann das Mammografie-Prozedere, vor allem in Bezug auf die variable Kompression des Brustgewebes, als potenziell schmerzinduzierend charakterisiert werden?",
+      "",
+      "6. Ereignen sich während des mammografischen Prozesses üblicherweise schmerzhafte Episoden, bedingt durch die Anwendung physischen Drucks auf das Brustgewebe?",
+      "",
+      "7. Entsteht der Prozess der Durchführung einer Mammografie für normalerweise Schmerzsensationen oder ist dieser als schmerzleer zu betrachten, unter Berücksichtigung der individuellen Sensibilität jeder Patientin?",
+      "",
+      "8. Ist es im Spektrum möglicher Patientenerfahrungen enthalten, dass das Verfahren der Mammografie Schmerzempfindungen oder unangenehme Sensationen hervorruft?",
+      "",
+      "9. Könnten Sie detailliert auf den Aspekt der Schmerzempfindung bei der Mammografie eingehen und erörtern, ob und inwiefern dieses diagnostische Verfahren eine physische Belastung darstellt?",
+      "",
+      "10. Könnten Sie mir nähere Auskunft darüber geben, ob das mammografische Verfahren, insbesondere die notwendige Kompression des Brustgewebes, im Allgemeinen mit Schmerzen assoziiert ist?"
+    ],
+    "low_literacy": [
+      "Wird diese Mammografie wehtun?",
+      "Muss ich mit Schmerzen rechnen, wenn ich die Mammografie mache?",
+      "Wollte fragen, ob es weh tut, diese Mammografie zu machen?",
+      "Ich habe Angst, dass die Mammografie weh tut. Tut sie das?",
+      "Schmerzt eine Mammografie?",
+      "Sollte ich mich auf Schmerzen einstellen bei der Mammografie?",
+      "Wird es unangenehm oder schmerzhaft sein, diese Mammografie zu haben?",
+      "Könnte diese Mammografie wehtun?",
+      "Ich stell mich auf alles ein. Aber tut diese Mammografie weh?",
+      "Ich bin ein bisschen nervös. Verursacht eine Mammografie Schmerzen?"
+    ],
+    "poor_german": [
+      "Mammografie weh tun?",
+      "Ich Angst haben. Mammografie schmerzen?",
+      "Entschuldigung, Mammografie, das tut weh?",
+      "Kannst du sagen, Mammografie tut weh?",
+      "Mammografie, das schmerzhaft? Ich bisschen Angst haben.",
+      "Mammografie machen Schmerzen, ja?",
+      "Es schmerzhaft sein, Mammografie?",
+      "Tut weh Mammografie? Ich wissen nicht.",
+      "Mammografie, das bringen Schmerzen?",
+      "Ist bei Mammografie Schmerz da?"
+    ]
+  },
+  "qa_data": {},
+  "metrics": {},
+  "identifier": "2",
+  "question": " Tut eine Mammografie weh?",
+  "answer": "Die Brust wird zusammengedrückt, um eine bessere Bildqualität zu erreichen, was schmerzhaft sein kann.",
+  "variations_created_at": "2024-01-18T10:20:38.460532"
+}

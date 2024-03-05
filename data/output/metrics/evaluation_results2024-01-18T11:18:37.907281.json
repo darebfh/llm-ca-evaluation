@@ -1,0 +1,1036 @@
+{
+  "results_all_examples": {
+    "20": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        },
+        "low_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "poor_german": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 5,
+        "low_literacy": 9,
+        "poor_german": 6
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 1,
+      "qap_no_answer_found": 0
+    },
+    "16": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 0,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 10
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        }
+      },
+      "qap_correct_answers_total": 16,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 0,
+        "low_literacy": 8,
+        "poor_german": 8
+      },
+      "qap_incorrect_answers_total": 14,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "6": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 2,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        }
+      },
+      "qap_correct_answers_total": 24,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 6,
+        "low_literacy": 10,
+        "poor_german": 8
+      },
+      "qap_incorrect_answers_total": 6,
+      "qap_variation_too_short": 2,
+      "qap_no_answer_found": 0
+    },
+    "7": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        }
+      },
+      "qap_correct_answers_total": 25,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 8,
+        "poor_german": 7
+      },
+      "qap_incorrect_answers_total": 5,
+      "qap_variation_too_short": 1,
+      "qap_no_answer_found": 0
+    },
+    "17": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        },
+        "poor_german": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        }
+      },
+      "qap_correct_answers_total": 21,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 6,
+        "poor_german": 5
+      },
+      "qap_incorrect_answers_total": 9,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "21": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "low_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "poor_german": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 3,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        }
+      },
+      "qap_correct_answers_total": 24,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 8,
+        "low_literacy": 9,
+        "poor_german": 7
+      },
+      "qap_incorrect_answers_total": 6,
+      "qap_variation_too_short": 3,
+      "qap_no_answer_found": 0
+    },
+    "10": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "low_literacy": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 24,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 9,
+        "low_literacy": 5,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 6,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "26": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        }
+      },
+      "qap_correct_answers_total": 21,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 5,
+        "low_literacy": 8,
+        "poor_german": 8
+      },
+      "qap_incorrect_answers_total": 9,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "30": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "low_literacy": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 23,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 8,
+        "low_literacy": 6,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 7,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "31": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 29,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 10,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 1,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "27": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 0,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 10
+        },
+        "low_literacy": {
+          "role_correct_answers": 0,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 10
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 10,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 0,
+        "low_literacy": 0,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 20,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "1": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        },
+        "low_literacy": {
+          "role_correct_answers": 2,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 8
+        },
+        "poor_german": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        }
+      },
+      "qap_correct_answers_total": 14,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 5,
+        "low_literacy": 2,
+        "poor_german": 7
+      },
+      "qap_incorrect_answers_total": 16,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "11": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 1,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 9
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 1,
+        "low_literacy": 10,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 1,
+      "qap_no_answer_found": 0
+    },
+    "2": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 0,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 10
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 17,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 0,
+        "low_literacy": 8,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 13,
+      "qap_variation_too_short": 2,
+      "qap_no_answer_found": 0
+    },
+    "28": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        }
+      },
+      "qap_correct_answers_total": 25,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 7,
+        "low_literacy": 10,
+        "poor_german": 8
+      },
+      "qap_incorrect_answers_total": 5,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "12": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 29,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 10,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 1,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "32": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 27,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 8,
+        "low_literacy": 10,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 3,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "24": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 29,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 9,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 1,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "25": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 3,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 7
+        },
+        "poor_german": {
+          "role_correct_answers": 0,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 10
+        }
+      },
+      "qap_correct_answers_total": 13,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 3,
+        "poor_german": 0
+      },
+      "qap_incorrect_answers_total": 17,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "33": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 30,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 10,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 0,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "13": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "low_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 25,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 7,
+        "low_literacy": 9,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 5,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "29": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "low_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "poor_german": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        }
+      },
+      "qap_correct_answers_total": 22,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 7,
+        "low_literacy": 7,
+        "poor_german": 8
+      },
+      "qap_incorrect_answers_total": 8,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "3": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        },
+        "low_literacy": {
+          "role_correct_answers": 4,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 6
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 6,
+        "low_literacy": 4,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "8": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 5,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 5
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 5,
+        "low_literacy": 10,
+        "poor_german": 5
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "22": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 1,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 28,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 9,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 2,
+      "qap_variation_too_short": 1,
+      "qap_no_answer_found": 0
+    },
+    "18": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 27,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 7,
+        "low_literacy": 10,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 3,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "4": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 1,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 9
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 19,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 1,
+        "low_literacy": 8,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 11,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "14": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        }
+      },
+      "qap_correct_answers_total": 30,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 10,
+        "poor_german": 10
+      },
+      "qap_incorrect_answers_total": 0,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "15": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        }
+      },
+      "qap_correct_answers_total": 26,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 9,
+        "low_literacy": 8,
+        "poor_german": 9
+      },
+      "qap_incorrect_answers_total": 4,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "5": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "low_literacy": {
+          "role_correct_answers": 4,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 6
+        },
+        "poor_german": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 10,
+        "low_literacy": 4,
+        "poor_german": 6
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "19": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "low_literacy": {
+          "role_correct_answers": 10,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 0
+        },
+        "poor_german": {
+          "role_correct_answers": 6,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 4
+        }
+      },
+      "qap_correct_answers_total": 23,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 7,
+        "low_literacy": 10,
+        "poor_german": 6
+      },
+      "qap_incorrect_answers_total": 7,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "23": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "low_literacy": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        },
+        "poor_german": {
+          "role_correct_answers": 4,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 6
+        }
+      },
+      "qap_correct_answers_total": 20,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 9,
+        "low_literacy": 7,
+        "poor_german": 4
+      },
+      "qap_incorrect_answers_total": 10,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    },
+    "9": {
+      "qap_results_all_roles": {
+        "high_literacy": {
+          "role_correct_answers": 9,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 1
+        },
+        "low_literacy": {
+          "role_correct_answers": 8,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 2
+        },
+        "poor_german": {
+          "role_correct_answers": 7,
+          "role_variation_too_short": 0,
+          "role_no_answer_found": 0,
+          "role_incorrect_answers_total": 3
+        }
+      },
+      "qap_correct_answers_total": 24,
+      "qap_correct_answers_total_per_role": {
+        "high_literacy": 9,
+        "low_literacy": 8,
+        "poor_german": 7
+      },
+      "qap_incorrect_answers_total": 6,
+      "qap_variation_too_short": 0,
+      "qap_no_answer_found": 0
+    }
+  },
+  "correct_answers_total": 745,
+  "correct_answers_total_per_role": {
+    "high_literacy": 229,
+    "low_literacy": 255,
+    "poor_german": 261
+  },
+  "incorrect_answers_total": 245,
+  "variation_too_short_total": 11,
+  "no_answer_found_total": 0
+}

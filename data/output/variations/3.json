@@ -1,0 +1,46 @@
+{
+  "alternative_questions": {
+    "high_literacy": [
+      "Könnten Sie den gesamten zeitlichen Ablauf einer Mammografie detailliert erörtern, beginnend von der Vorleitung bis hin zur Post-Verarbeitungsphase?",
+      "Würden Sie bitte einen zeitlichen Rahmen bereitstellen, in dem die diagnostische Prozedur der Mammographie durchgeführt wird?",
+      "Können Sie eine präzise Aufschlüsselung der Zeitspanne angeben, die für eine komplette Mammografie einschließlich der Vorbereitungsphase und der anschließenden Analyse benötigt wird?",
+      "Würden Sie in der Lage sein, mir den zeitlichen Umfang zu erläutern, den ich für den gesamten Prozess der Mammographie einplanen muss, von der initialen Einstellung bis zur abschließenden Bildinterpretation?",
+      "Könnten Sie eine genaue Zeitangabe in Minuten oder Stunden geben, um den Gesamtaufwand einer Mammographie darzustellen?",
+      "Ich wäre interessiert zu erfahren, wie lange es dauert, einen Mammographie-Scan vom Anfang bis zum Ende zu vervollständigen.",
+      "Welche Dauer sollte ich vorsehen, um den gesamten Prozess einer Mammographie zu durchlaufen?",
+      "Könnten Sie mir einen Überblick über den Zeitaufwand geben, der für das gesamte Mammographieverfahren, einschließlich Präparation, Scannen und Evaluieren, benötigt wird?",
+      "Würden Sie so nett sein und mir mitteilen, wie lang der zeitaufwändige Prozess der Mammographie in etwa ist?",
+      "Angenommen, ich unterziehe mich einer Mammographie, wie lange würde ich dann voraussichtlich in der radiologischen Abteilung verbringen?"
+    ],
+    "low_literacy": [
+      "Wie lange bin ich beim Arzt, wenn ich eine Mammografie machen lasse?",
+      "Wie viel Zeit sollte ich für eine Mammografie einplanen?",
+      "Ist eine Mammografie eine Sache von vielen Stunden oder geht das schnell?",
+      "Wie lange muss ich bei der Untersuchung Mammografie stillhalten?",
+      "Wie lange sitze ich da, wenn sie mir diese Mammografie machen?",
+      "Ich höre, ich soll eine Mammografie bekommen. Wie viel Zeit wird das in Anspruch nehmen?",
+      "Wie viel Geduld brauche ich bei einer Mammografie?",
+      "Wie lange dauert die Prozedur, wenn ich eine Mammografie machen lasse?",
+      "Muss ich für die Mammografie den ganzen Tag im Krankenhaus verbringen oder ist das schnell vorbei?",
+      "Wie lange muss ich planen, wenn ich zur Mammografie gehe?"
+    ],
+    "poor_german": [
+      "Mammografie, wie lange Zeit es dauert?",
+      "Wie viele Minuten für Mammografie?",
+      "Mammografie, viel Zeit brauchen?",
+      "Wie viele Uhr für Mammografie?",
+      "Mammografie, lang oder schnell?",
+      "Wie lange für eine Mammografie?",
+      "Mammografie, viel Zeit ich geben müssen?",
+      "Mammografie machen, wie lang dauert das?",
+      "Wie viel Zeit nehmen Mammografie?",
+      "Mammografie, lange Zeit nehmen?"
+    ]
+  },
+  "qa_data": {},
+  "metrics": {},
+  "identifier": "3",
+  "question": "Wie lange dauert eine Mammographie? ",
+  "answer": "Die Aufnahme der Bilder selbst dauert nur wenige Sekunden, mit den Vor- und Nachbereitungen insgesamt etwa 15 Minuten.",
+  "variations_created_at": "2024-01-18T10:21:34.957563"
+}

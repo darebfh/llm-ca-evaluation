@@ -51,7 +51,7 @@ class Evaluator:
             self.save_object(
                 example, constants.QAP_VARIATIONS_OUTPUT_FOLDER + example.identifier
             )
-            input("Press Enter to continue...")
+            # input("Press Enter to continue...")
 
     def get_question_variations_for_qap(self, question):
         result = {}
